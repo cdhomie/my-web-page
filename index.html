@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caelan's webpage</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #555;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #777;
+        }
+
+        .hero {
+            background: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            padding: 1rem;
+        }
+
+        .main {
+            flex: 3;
+            padding: 1rem;
+        }
+
+        .sidebar {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* RECTANGULAR IMAGE */
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            border-radius: 0; /* removes circle */
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Online CV</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome!</h2>
+    <p>This webpage contains my CV.</p>
+</section>
+
+<div class="container">
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+        <h2>Profile</h2>
+        <p>
+            I am a hard-working and motivated student currently completing my GCSEs in 2026.
+            I am eager to gain work experience and develop practical skills while continuing my education at college.
+        </p>
+
+        <h2>Education</h2>
+        <ul>
+            <li>GCSE Business Studies – Grade 6 (achieved)</li>
+            <li>Currently studying:
+                <ul>
+                    <li>Maths</li>
+                    <li>English Language</li>
+                    <li>English Literature</li>
+                    <li>Combined Science</li>
+                    <li>Engineering</li>
+                    <li>Computer Science</li>
+                    <li>Sociology</li>
+          <li>Going to do at A-level:
+                <ul>
+                    <li>Economics</li>
+                    <li>Computer science</li>
+                    <li>Psychology</li>
+
+
+        </ul>
+
+        <h2>Availability</h2>
+        <p>
+            Available for part-time or flexible work. Starting college in September 2026.
+        </p>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <img src="Web.png" alt="My photo" class="profile-pic">
+    </aside>
+
+</div>
+<section id="contact" class="hero">
+    <h2>Contact Me</h2>
+    <p>Email: caelanhurn792@gmail.com</p>
+    <p>Phone: 07538 092802</p>
+</section>
+<footer>
+    <p>&copy; 2026 My Website | All rights reserved</p>
+</footer>
+
+</body>
+</html>
