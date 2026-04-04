@@ -26,10 +26,6 @@
             text-align: center;
         }
 
-        header h1 {
-            margin: 0;
-        }
-
         nav {
             background: #555;
             display: flex;
@@ -50,6 +46,22 @@
             background: #f4f4f4;
             padding: 4rem 2rem;
             text-align: center;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #0056b3;
         }
 
         .container {
@@ -79,7 +91,6 @@
 
         .profile-pic {
             width: 100%;
-            height: auto;
             border-radius: 10px;
         }
 
@@ -118,6 +129,9 @@
 <section class="hero">
     <h2>Welcome!</h2>
     <p>This webpage contains my CV.</p>
+
+    <!-- Download Button -->
+    <a href="cv.pdf" download class="download-btn">Download My CV</a>
 </section>
 
 <div class="container">
@@ -152,17 +166,13 @@
 
         <h2>Skills</h2>
         <ul>
-
             <li>Basic Programming (HTML/CSS)</li>
         </ul>
 
         <h2>Links</h2>
-<p>
-    <a href="https://www.linkedin.com/in/caelan-hurn-29bba329a" target="_blank">
-        LinkedIn
-    </a>
-</p>
- 
+        <p>
+            <a href="https://www.linkedin.com/in/caelan-hurn-29bba329a" target="_blank">LinkedIn</a>
+        </p>
 
         <h2>Availability</h2>
         <p>
